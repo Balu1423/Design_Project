@@ -19,16 +19,15 @@
         width:550px;
         object-fit:cover;
         
-        position:absolute;
+        position:relative;
     }
     #p1,text{
         text-align: center;
-        padding-top:70px;
-        
-        
+        padding-bottom:130px;
+        margin-left:60px;
         font-size:18;
         color:rgb(82, 107, 129);
-        position:absolute;
+        position:relative;
     }
     #p1,ban_img{
         position:relative;
@@ -41,12 +40,16 @@
     #p2{
         max-width:96%;
         margin:0 auto;
+        margin-left:80px;
+        text-align:justify;
     }
     #p3{
         max-width:96%;
         margin:0 auto;
     }
     #p3 h2{
+        margin:0 auto;
+        margin-left:80px;
         text-align:center;
         padding-top:20px;
         
@@ -62,6 +65,7 @@
     } */
     .v_box{
         margin-top:30px;
+        margin-left:80px;
         justify-content: center;
         align-items: center;
         justify-items: center;
@@ -84,7 +88,7 @@
         
     }
     .show{
-       padding-top:200px;
+       padding-top:px;
     }
     
     .v_box .show:hover{
@@ -116,12 +120,11 @@
         /* background-color:lightgray; */
         border-radius: 10px;
     }
-    #p4{
+    #p4 {
+        width:500px;
+        background-color: rgb(197, 200, 202);
         text-align: center;
-        background-color: rgb(209, 211, 211);
-        padding:8px;
-        margin-top:30px;
-        
+        padding-block: 8px;
     }
 
 
